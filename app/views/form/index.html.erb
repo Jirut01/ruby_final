@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <title>Bootstrap Form </title>
+</head>
+
+<body class="bg-light">
+<div class="container">
+<div class="wrapper fadeInDown">
+  <!-- Start Form Section -->
+  <div class="container">
+
+    <!-- Start Header form -->
+    <div class="text-center pt-5">
+      <img src="https://kamolchaibangkaew.com/images/logo/m_puppy.png" alt="network-logo" width="72" height="72" />
+      <h2>Ball Form</h2>
+      <p>
+        Welcome to the world of programmers at BANANA CODING COMPANY LIMITED
+      </p>
+    </div>
+    <!-- End Header form -->
+
+    <!-- Start Form Body -->
+    <div class="bg-white border rounded p-4">
+        <div class="row">
+            <div class="col-md-4 order-md-2 mb-4">
+              <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <span class="text-success">Your cart</span>
+              </h4>
+              <ul class="list-group mb-3">
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                  <div>
+                    <h6 class="my-0">Product name</h6>
+                  </div>
+                  <span class="text-muted">$12</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                  <div>
+                    <h6 class="my-0">Second product</h6>
+                  </div>
+                  <span class="text-muted">$8</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-condensed">
+                  <div>
+                    <h6 class="my-0">Third item</h6>
+                  </div>
+                  <span class="text-muted">$5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between bg-light">
+                  <div class="my-0">
+                    <h6 class="my-0">Promo code</h6>
+                  </div>
+                  <span class="text-muted">-$5</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                  <span>Total (USD)</span>
+                  <strong>$20</strong>
+                </li>
+              </ul>
+      
+              <form class="card p-2">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Promo code">
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-secondary">Redeem</button>
+                  </div>
+                </div>
+              </form>
+      <!-- Start Form -->
+      <form id="myForm" action="#" method="" autocomplete="on">
+    </div>
+    <div class="col-md-8 order-md-1">
+      <form class="needs-validation" novalidate="">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="firstName">First name</label>
+            <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+            <div class="invalid-feedback">
+              Valid first name is required.
+            </div>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label for="lastName">Last name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+            <div class="invalid-feedback">
+              Valid last name is required.
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="username">Username</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">@</span>
+            </div>
+            <input type="text" class="form-control" id="username">
+          </div>
+        </div>
+        <div class="mb-3">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email">
+          </div>
+        
+          <div class="mb-3">
+            <label for="address">Address</label>
+            <input type="address" class="form-control" id="address">
+          </div>
+        
+          <div class="md-3">
+            <label for="inputCity" class="form-label">Country</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="mb-3 mt-4">
+            <label for="inputState" class="form-label">State</label>
+            <select id="inputState" class="form-select">
+              <option selected>Choose...</option>
+              <option>...</option>
+            </select>
+          </div>
+          <div class="md-3">
+            <label for="inputZip" class="form-label">Zip</label>
+            <input type="text" class="form-control" id="inputZip"  placeholder="">
+          </div>
+          
+            <h4 class="mb-3 mt-5">Status</h4>
+          <div class="form-check md-3 mt-4">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Single
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+            Not single
+            </label>
+          </div>
+          
+          <h4 class="mb-3 mt-5">Payment</h4>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">Cash</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">Internet Banking
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">Debit/Credit</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">True Wallet</label>
+          </div>
+    
+        </form>
+      
+    <!-- End Form Body -->
+    <h4 class="mb-3 mt-5"></h4>
+    <button class="btn btn-secondary btn-lg btn-block  " type="submit">Commit</button>
+  <!-- Start Form Section -->
+
+  <!-- Start footer -->
+    <a href="/home"><h4><-- Back</h4></a>
+  </div>
+</div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+<footer>
+    <div class footer></div>Footer
+    <p>@2021 Bootcamp</p>
+  </div>
+  </footer>
+
+</html>
+
+
